@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Call Backs</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/bootstrap/css/bootstrap-reboot.css">
+        <link rel="stylesheet" href="styles/bootstrap/css/bootstrap-grid.css">
+        <link rel="stylesheet" href="styles/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="styles/mystyles.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand pageHeader" href="#">
+                    <img src="img/logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                    Call Backs
+                </a>
+            </nav>
+        </header>
+        <main class="container">
+            <div class="card" style="width: 18rem;">
+                <div  class="card-body">
+                    <h5 class="card-title">CallBack Function</h5>
+                    <button id="firstLogger" onclick="callBack1(logStudent)">Click Me&#8230;</button>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                    <div  class="card-body">
+                        <h5 class="card-title">CallBack Anonymous Function</h5>
+                        <button id="secondLogger" onclick="callBack1()">Click Me&#8230;</button>
+                    </div>
+                </div>
+        </main>
+        
+        <script type="text/javascript" src="styles/bootstrap/js/bootstrap.bundle.js" ></script>
+        <script type="text/javascript" src="styles/bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="scripts/logger.js"></script>
+    </body>
+</html>
