@@ -7,7 +7,8 @@
     color: #fff;
     margin: 10px;
     background: #02c0ff;
-    border-bottom: 5px solid #008fbf
+    border-bottom: 5px solid #008fbf;
+    width: 18rem;
 }
 
 .container {
