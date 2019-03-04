@@ -19,3 +19,12 @@
 h3 {
     padding: 3px;
 }
+
+input,
+textarea {
+    margin: 3px;
+}
+
+.highlight {
+    box-shadow: 0px 0px 10px magenta;
+}
