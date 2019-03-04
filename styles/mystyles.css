@@ -4,7 +4,10 @@
 }
 
 .card {
+    color: #fff;
     margin: 10px;
+    background: #02c0ff;
+    border-bottom: 5px solid #008fbf
 }
 
 .container {

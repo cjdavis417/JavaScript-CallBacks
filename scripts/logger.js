@@ -5,7 +5,7 @@ const person = {
 
 const newperson = {
     name: 'Jim Davis',
-    role: 'Daddy'
+    role: 'Teacher'
 }
 
 function logStudent(student, domID) {
